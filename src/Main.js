@@ -8,30 +8,7 @@ import Panel from './Panel';
 
 const Main = () => {
 
-    const [isBoomer, setIsBoomer] = useState(false);
-
-
-    const switchView = () => {
-        setIsBoomer((isBoomer) ? false : true);
-    }
-
-    return (!isBoomer) ? (
-        <ScrollContainer className='main'>
-            <Panel />
-            <div className='campus'>
-                <div className='floor'>
-                    <div className='grid'>
-                        <Grid />
-                    </div>
-                </div>
-            </div>
-            <div className='toggle' onClick={switchView}>
-                <div className='switch cool'>
-                    View Committee List
-                </div>
-            </div>
-        </ScrollContainer>
-    ) : (
+    return (
         <div className='main'>
             <Panel />
             <div className='committees-container'>
@@ -119,13 +96,10 @@ const Main = () => {
                     </div>
                 </div>
             </div>
-            <div className='toggle' onClick={switchView}>
-                <div className='switch boomer'>
-                    View Committee Map
-                </div>
-            </div>
         </div>
     );
+
+
 }
 
 export default Main;

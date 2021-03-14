@@ -2,6 +2,10 @@ import React from 'react';
 
 import { streetCoords, grassCoords, committeeCoords } from '../data/SpecialGrids';
 
+import GrassBlock from '../assets/grass.png';
+import CobbleBlock from '../assets/cobblestone.png';
+import WoodBlock from '../assets/wood.png';
+
 const Grid = () => {
 
     const isSpecial = (x, y, type, committee) => {
@@ -46,11 +50,14 @@ const Grid = () => {
 
                 } else if (isSpecial(e, j, 'street')) {
                     displayArr.push(
-                        <div className="grid-item street"></div>
+                        <div className="grid-item street">
+                            <img className='full' src={CobbleBlock} />
+                        </div>
                     );
                 } else if (isSpecial(e, j, 'committee', 'disec')) {
                     displayArr.push(
                         <div className="grid-item committee">
+                                                        <img className='full' src={WoodBlock} />
                             <a href="#" className='grid-link'>
                                 disec
                             </a>
@@ -59,6 +66,7 @@ const Grid = () => {
                 } else if (isSpecial(e, j, 'committee', 'interpol')) {
                     displayArr.push(
                         <div className="grid-item committee">
+                                                        <img className='full' src={WoodBlock} />
                             <a href="#" className='grid-link'>
                                 interpol
                             </a>
@@ -67,6 +75,7 @@ const Grid = () => {
                 } else if (isSpecial(e, j, 'committee', 'sochum')) {
                     displayArr.push(
                         <div className="grid-item committee">
+                                                        <img className='full' src={WoodBlock} />
                             <a href="#" className='grid-link'>
                                 sochum
                             </a>
@@ -75,6 +84,7 @@ const Grid = () => {
                 } else if (isSpecial(e, j, 'committee', 'who')) {
                     displayArr.push(
                         <div className="grid-item committee">
+                                                        <img className='full' src={WoodBlock} />
                             <a href="#" className='grid-link'>
                                 who
                             </a>
@@ -83,6 +93,7 @@ const Grid = () => {
                 } else if (isSpecial(e, j, 'committee', 'iac')) {
                     displayArr.push(
                         <div className="grid-item committee">
+                                                        <img className='full' src={WoodBlock} />
                             <a href="#" className='grid-link'>
                                 iac
                             </a>
@@ -91,6 +102,7 @@ const Grid = () => {
                 } else if (isSpecial(e, j, 'committee', 'nato')) {
                     displayArr.push(
                         <div className="grid-item committee">
+                                                        <img className='full' src={WoodBlock} />
                             <a href="#" className='grid-link'>
                                 nato
                             </a>
@@ -99,6 +111,7 @@ const Grid = () => {
                 } else if (isSpecial(e, j, 'committee', 'uss')) {
                     displayArr.push(
                         <div className="grid-item committee">
+                                                        <img className='full' src={WoodBlock} />
                             <a href="#" className='grid-link'>
                                 uss
                             </a>
@@ -107,6 +120,7 @@ const Grid = () => {
                 } else if (isSpecial(e, j, 'committee', 'eu')) {
                     displayArr.push(
                         <div className="grid-item committee">
+                                                        <img className='full' src={WoodBlock} />
                             <a href="#" className='grid-link'>
                                 eu
                             </a>
@@ -115,6 +129,7 @@ const Grid = () => {
                 } else if (isSpecial(e, j, 'committee', 'asean')) {
                     displayArr.push(
                         <div className="grid-item committee">
+                                                        <img className='full' src={WoodBlock} />
                             <a href="#" className='grid-link'>
                                 asean
                             </a>
@@ -123,6 +138,7 @@ const Grid = () => {
                 } else if (isSpecial(e, j, 'committee', 'unep')) {
                     displayArr.push(
                         <div className="grid-item committee">
+                                                        <img className='full' src={WoodBlock} />
                             <a href="#" className='grid-link'>
                                 unep
                             </a>
@@ -131,6 +147,7 @@ const Grid = () => {
                 } else if (isSpecial(e, j, 'committee', 'unsc')) {
                     displayArr.push(
                         <div className="grid-item committee">
+                                                        <img className='full' src={WoodBlock} />
                             <a href="#" className='grid-link'>
                                 unsc
                             </a>
@@ -139,6 +156,7 @@ const Grid = () => {
                 } else if (isSpecial(e, j, 'committee', 'unwomen')) {
                     displayArr.push(
                         <div className="grid-item committee">
+                                                        <img className='full' src={WoodBlock} />
                             <a href="#" className='grid-link'>
                                 unwomen
                             </a>
@@ -147,6 +165,7 @@ const Grid = () => {
                 } else if (isSpecial(e, j, 'committee', 'facebook')) {
                     displayArr.push(
                         <div className="grid-item committee">
+                                                        <img className='full' src={WoodBlock} />
                             <a href="#" className='grid-link'>
                                 facebook
                             </a>
@@ -155,6 +174,7 @@ const Grid = () => {
                 } else if (isSpecial(e, j, 'committee', 'ilo')) {
                     displayArr.push(
                         <div className="grid-item committee">
+                                                        <img className='full' src={WoodBlock} />
                             <a href="#" className='grid-link'>
                                 ilo
                             </a>
@@ -163,6 +183,7 @@ const Grid = () => {
                 } else if (isSpecial(e, j, 'committee', 'jcc')) {
                     displayArr.push(
                         <div className="grid-item committee">
+                                                        <img className='full' src={WoodBlock} />
                             <a href="#" className='grid-link'>
                                 jcc
                             </a>
@@ -171,6 +192,7 @@ const Grid = () => {
                 } else if (isSpecial(e, j, 'committee', 'fcc')) {
                     displayArr.push(
                         <div className="grid-item committee">
+                                                        <img className='full' src={WoodBlock} />
                             <a href="#" className='grid-link'>
                                 fcc
                             </a>
@@ -179,6 +201,7 @@ const Grid = () => {
                 } else if (isSpecial(e, j, 'committee', 'hcc')) {
                     displayArr.push(
                         <div className="grid-item committee">
+                                                        <img className='full' src={WoodBlock} />
                             <a href="#" className='grid-link'>
                                 hcc
                             </a>
@@ -187,6 +210,7 @@ const Grid = () => {
                 } else if (isSpecial(e, j, 'committee', 'ipcngo')) {
                     displayArr.push(
                         <div className="grid-item committee">
+                                                        <img className='full' src={WoodBlock} />
                             <a href="#" className='grid-link'>
                                 ipcngo
                             </a>
@@ -195,6 +219,7 @@ const Grid = () => {
                 } else if (isSpecial(e, j, 'committee', 'cabinet')) {
                     displayArr.push(
                         <div className="grid-item committee">
+                                                        <img className='full' src={WoodBlock} />
                             <a href="#" className='grid-link'>
                                 cabinet
                             </a>
@@ -203,6 +228,7 @@ const Grid = () => {
                 } else if (isSpecial(e, j, 'committee', '_staff')) {
                     displayArr.push(
                         <div className="grid-item committee">
+                                                        <img className='full' src={WoodBlock} />
                             <a href="#" className='grid-link'>
                                 staff
                             </a>
@@ -212,6 +238,7 @@ const Grid = () => {
                     //cahsmun main
                     displayArr.push(
                         <div className="grid-item committee">
+                                                        <img className='full' src={WoodBlock} />
                             <a href="#" className='grid-link'>
                                 cahs
                             </a>
@@ -221,6 +248,7 @@ const Grid = () => {
                     // secretariat desk
                     displayArr.push(
                         <div className="grid-item committee">
+                                                        <img className='full' src={WoodBlock} />
                             <a href="#" className='grid-link'>
                                 sec desk
                             </a>
@@ -230,6 +258,7 @@ const Grid = () => {
                     // secretariat desk
                     displayArr.push(
                         <div className="grid-item committee">
+                                                        <img className='full' src={WoodBlock} />
                             <a href="#" className='grid-link'>
                                 social
                             </a>
@@ -241,7 +270,9 @@ const Grid = () => {
                     );
                 } else {
                     displayArr.push(
-                        <div className="grid-item"></div>
+                        <div className="grid-item grass">
+                            <img className='full' src={GrassBlock} />
+                        </div>
                     );
                 }
             }
