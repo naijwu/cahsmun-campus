@@ -23,11 +23,9 @@ const Main = () => {
                                 <a href='https://zoom.us/j/9307153069' target="_blank" rel="noreferrer" className='committee-item'>
                                     Staff Room
                                 </a>
-                                {(funTime) ? (
-                                    <a href='https://zoom.us/j/97825123480' target="_blank" rel="noreferrer" className='committee-item'>
-                                        Delegate Social
-                                    </a>
-                                ) : ''}
+                                <a href={`${funTime ? 'https://zoom.us/j/97825123480' : '#'}`} target={`${funTime ? '_blank' : ''}`} rel="noreferrer" className={`committee-item ${funTime ? '' : 'disabled'}`}>
+                                    Delegate Social
+                                </a>
                             </div>
                             <div className='group-inner'>
                                 <h4>General Assemblies</h4>

@@ -51,8 +51,6 @@ const Guide = () => {
                         <h5>Camera and Microphone Policy</h5>
                         <p>
                             All delegates are expected to have their camera on during committee sessions. However, delegates may temporarily turn off their cameras if their internet connection is unstable, or if they are briefly leaving their computers to use the washroom or grab water. If you are turning off your camera due to connectivity issues, please notify your Staff team.
-                        </p>
-                        <p>
                             Delegates are expected to be on mute unless it is their turn to speak during a speaker’s list or moderated caucuses.
                         </p>
                         <h5>Chat</h5>
