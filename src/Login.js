@@ -43,7 +43,7 @@ const Login = (props) => {
                     <img draggable='false' className='colonize' src={logo} />
                 </div>
                 <div className='login'>
-                    <h2>cahsmun campus</h2>
+                    <h2>Cahsmun Campus</h2>
                     <h3>cahsmun | the seventeenth session</h3>
                     <button disabled={loading} className={`google disable${loading}`} onClick={handleGoogleLogin}>
                         {(loading) ? (

@@ -10,7 +10,7 @@ import ChevronLeft from './assets/chevron-left.svg';
 
 const Panel = () => {
     
-    const [opened, setOpened] = useState((window.innerWidth < 1370) ? false : (sessionStorage.getItem('nav') === 'true'));
+    const [opened, setOpened] = useState((window.innerWidth < 1370) ? false : (sessionStorage.getItem('nav') ? (sessionStorage.getItem('nav') === 'true') : true));
 
     useEffect(() => {
 
@@ -52,38 +52,43 @@ const Panel = () => {
             <div className={`panel navopen${opened ? '' : 'closed'}`}>
                 <div className='ruby'>
                     <img draggable='false' className='colonize' src={logo} alt='logo' />
-                    <h1>cahsmun<br/>campus</h1>
+                    <h1>CAHSMUN<br/>Campus</h1>
                 </div>
                 <div className='ice'>
                     <div className='section'>
-                        <h3>main links</h3>
-                        <NavLink onClick={e=>hideSide()} exact={true} to='/' activeClassName='active' className='panel-link'>campus floor</NavLink>
-                        <NavLink onClick={e=>hideSide()} to='/conference/information' className='panel-link'>general information</NavLink>
-                        <NavLink onClick={e=>hideSide()} to='/conference/schedule' className='panel-link'>conference schedule</NavLink>
+                        <h3>Main Links</h3>
+                        <NavLink onClick={e=>hideSide()} exact={true} to='/' className='panel-link'>General Information</NavLink>
+                        <NavLink onClick={e=>hideSide()} to='/rooms' activeClassName='active' className='panel-link'>Campus Rooms</NavLink>
+                        <NavLink onClick={e=>hideSide()} to='/guide' activeClassName='active' className='panel-link'>Zoom Guide</NavLink>
                         <a href='https://ipc.cahsmun.org/' target="_blank" rel="noreferrer" className='panel-link icon'>
-                            ipc website
+                            IPC Website
                             <img src={ExternalLink} alt='External' />
                         </a>
                     </div>
                     <div className='section'>
-                        <h3>resources</h3>
-                        <NavLink onClick={e=>hideSide()} to='/resources/resolution-paper' className='panel-link'>resolution paper guide</NavLink>
-                        <NavLink onClick={e=>hideSide()} to='/resources/rules-of-procedure' className='panel-link'>rules of procedure</NavLink>
-                        <NavLink onClick={e=>hideSide()} to='/resources/crisis-procedure' className='panel-link'>crisis procedure</NavLink>
+                        <h3>Resources</h3>
+                        <a href='https://static1.squarespace.com/static/57b632432994cab0b44562ae/t/5f66c555dc971b47105da274/1600570711528/CAHSMUN+Resolution+Paper+Guide.pdf' target="_blank" rel="noreferrer" className='panel-link icon'>
+                            Resolution Paper Guide
+                            <img src={ExternalLink} alt='External' />
+                        </a>
+                        <a href='https://static1.squarespace.com/static/57b632432994cab0b44562ae/t/5f66c580885b214e6f2d2585/1600570757381/CAHSMUN+Rules+of+Procedure+Guide.pdf' target="_blank" rel="noreferrer" className='panel-link icon'>
+                            Rules of Procedure
+                            <img src={ExternalLink} alt='External' />
+                        </a>
+                        {/* <a href='https://ipc.cahsmun.org/' target="_blank" rel="noreferrer" className='panel-link icon'>
+                            Crisis Procedure
+                            <img src={ExternalLink} alt='External' />
+                        </a> */}
                     </div>
                     <div className='gap'></div>
                     <div className={`hide ${(opened) ? '' : 'closed'}`}>
                         <div className='left' onClick={e=>toggleSide()}>
-                            hide navigation
+                            Hide Navigation
                         </div>
                         <div className={`chevron ${opened ? '' : 'closed'}`} onClick={e=>toggleSide()}>
                             <img src={ChevronLeft} alt='Chevron Left' />
                         </div>
                     </div>
-                    {/* <div className='section'>
-                        <h3>more actions</h3>
-                        <button onClick={handleLogOut} className='panel-link'>logout</button>
-                    </div> /* No login */}
                 </div>
             </div>
         </>

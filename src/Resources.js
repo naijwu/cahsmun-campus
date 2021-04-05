@@ -23,6 +23,7 @@ const Resources = () => {
                     <div className='rp'>
                         <h2>Resolution Paper Guide</h2>
                         <h3>Delegate Resources</h3>
+                        <p>Currently under construction 🚧 Check back later! 👷‍♂️</p>
                     </div>
 
                 ) : ((page === 'rules-of-procedure') ? (
@@ -30,6 +31,7 @@ const Resources = () => {
                     <div className='rop'>
                         <h2>Rules of Procedure</h2>
                         <h3>Delegate Resources</h3>
+                        <p>Currently under construction 🚧 Check back later! 👷‍♂️</p>
                     </div>
 
                     ) : (
@@ -38,6 +40,7 @@ const Resources = () => {
                     <div className='cp'>
                         <h2>Crisis Procedure</h2>
                         <h3>Delegate Resources</h3>
+                        <p>Currently under construction 🚧 Check back later! 👷‍♂️</p>
                     </div>
 
                         ) : ('')
