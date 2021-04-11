@@ -17,13 +17,19 @@ const Main = () => {
                         <div className='group'>
                             <div className='group-inner'>
                                 <h4>Main Building</h4>
+                                <a href='https://youtu.be/MNY4Dxkjq0A' target="_blank" rel="noreferrer" className='committee-item'>
+                                    Opening Ceremony
+                                </a>
+                                <a href='https://www.youtube.com/watch?v=Fe3wCb6hJrM&ab_channel=CAHSMUN' target="_blank" rel="noreferrer" className='committee-item'>
+                                    Closing Ceremony
+                                </a>
                                 <a href='https://zoom.us/j/93186871423' target="_blank" rel="noreferrer" className='committee-item'>
                                     Secretariat Desk
                                 </a>
                                 <a href='https://zoom.us/j/9307153069' target="_blank" rel="noreferrer" className='committee-item'>
                                     Staff Room
                                 </a>
-                                <a href={`${funTime ? 'https://zoom.us/j/97825123480' : '#'}`} target={`${funTime ? '_blank' : ''}`} rel="noreferrer" className={`committee-item ${funTime ? '' : 'disabled'}`}>
+                                <a href={`${funTime ? 'https://zoom.us/j/94205566796' : '#'}`} target={`${funTime ? '_blank' : ''}`} rel="noreferrer" className={`committee-item funtime ${funTime ? '' : 'disabled'}`}>
                                     Delegate Social
                                 </a>
                             </div>

@@ -67,6 +67,10 @@ const Panel = () => {
                     </div>
                     <div className='section'>
                         <h3>Resources</h3>
+                        <a href='https://static1.squarespace.com/static/57b632432994cab0b44562ae/t/6070c7526c72440794cbac7b/1618003815421/CAHSMUN+2021+Delegate+Handbook.pdf' target="_blank" rel="noreferrer" className='panel-link icon'>
+                            Delegate Handbook
+                            <img src={ExternalLink} alt='External' />
+                        </a>
                         <a href='https://static1.squarespace.com/static/57b632432994cab0b44562ae/t/5f66c555dc971b47105da274/1600570711528/CAHSMUN+Resolution+Paper+Guide.pdf' target="_blank" rel="noreferrer" className='panel-link icon'>
                             Resolution Paper Guide
                             <img src={ExternalLink} alt='External' />

@@ -1,24 +1,58 @@
 import React, { useState } from 'react';
 import Panel from './Panel';
 import ChevronLeft from './assets/chevron-left.svg';
+import logo from './assets/cahs-logo.png';
 
 const Conference = () => {
 
-    const [firstOpened, setFirstOpened] = useState(true);
+    const [firstOpened, setFirstOpened] = useState(false);
     const [secondOpened, setSecondOpened] = useState(false);
-    const [thirdOpened, setThirdOpened] = useState(false); 
+    const [thirdOpened, setThirdOpened] = useState(true); 
 
     return (
         <div className='conference'>
             <Panel />
             <div className='conference-container'>
                 <div className='information'>
+                    {/* <div className='announcements social'>
+                        <h2>Delegate Social Information</h2>
+                        <p>
+                            <br/>
+                            Feel free to explore the various breakout rooms (in the Delegate Social Zoom Meeting)! If you need to be assigned to a particular breakout room let the Secretariat team know.
+                        </p>
+                        <h3>Photobooth</h3>
+                        <p>
+                            For the photobooth, please join the Photo Booth Breakout Room only when it is empty (excluding the Secretariat member present).
+                        </p>
+                        <h3>Trivia</h3>
+                        <p>
+                            Trivia will start at 8:00 PM and will be hosted by our USG of Outreach, Owen Ebose!
+                        </p>
+                        <h3>Minecraft Server</h3>
+                        <p>
+                            The Minecraft server IP Address is play.cahsmun.org. <br/><br/>
+                            
+                            The Challenge: Using any means necessary, defeat the Ender Dragon. The user who kills the Ender Dragon will win a $25 UberEats Gift Card. Feel free to mine around spawn to collect the resources needed. You have until 9:00 PM PDT. 
+                        </p>
+                    </div> */}
+
+                    <div className='thank-you'>
+                        <img draggable='false' src={logo} alt='logo' />
+                        <p>
+                            On behalf of the entire Secretariat and Staff team,
+                            thank you for your participation in CAHSMUN 2021 and for learning 
+                            today, so that you may lead tomorrow. ❤
+                        </p>
+                    </div>
+
                     <div className='announcements'>
                         <h2>Announcement</h2>
                         <p>
-                            Important information will be here &mdash; Keep posted!
+                            View the closing ceremony on YouTube by <a href="https://www.youtube.com/watch?v=Fe3wCb6hJrM&ab_channel=CAHSMUN" >clicking here</a>. Thank you all for an amazing weekend!
                         </p>
                     </div>
+
+
                     <h2>General Information</h2>
 
                     <h3>Conference Schedule (PDT)</h3>
@@ -113,6 +147,10 @@ const Conference = () => {
                                 <td>Committee Session VIII</td>
                             </tr>
                             <tr class="second">
+                                <td>5:30 pm – 6:00 pm</td>
+                                <td>Sponsor Teacher Meeting @ Secretariat Desk</td>
+                            </tr>
+                            <tr class="second">
                                 <td>5:30 pm – 7:00 pm</td>
                                 <td>Dinner</td>
                             </tr>
@@ -169,7 +207,8 @@ const Conference = () => {
                             <h4>All Inquiries</h4>
                             <p>
                                 For any inquiries, visit us at the Secretariat Desk (Accessible via the 'Campus Rooms' link on the side). 
-                                Alternatively, you can email Emily Ni, our Secretary-General, at <a href="mailto:sg@cahsmun.org">sg@cahsmun.org</a>.
+                                Alternatively, you can send a message in the Inquiries Slack Channel, call our toll-free line at 1-833-REDCAHS (available 8am - 10pm PST), 
+                                or email Emily Ni, our Secretary-General, at <a href="mailto:sg@cahsmun.org">sg@cahsmun.org</a>.
                             </p>
                         </div>
                     </section>

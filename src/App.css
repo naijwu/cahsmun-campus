@@ -571,6 +571,14 @@ body.indiana-dragging {
   transition:0.2s all cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
+.group a.committee-item.funtime {
+  background:rgb(35, 95, 163);
+} .group a.committee-item.funtime:hover {
+  background:rgb(20, 57, 100);
+} .group a.committee-item.funtime:active {
+  box-shadow:0 0 0 5px rgba(35, 95, 163, 0.384);
+}
+
 .group a.committee-item:hover {
   background:var(--accent-dark);
 }
@@ -693,6 +701,30 @@ p {
   border-radius:5px;
 }
 
+
+.announcements.social {
+  background:rgba(152, 193, 240, 0.301);
+  color:rgb(20, 57, 100);
+}
+
+.announcements.social h3 {
+  color:rgb(20, 57, 100);
+  font-weight:blue;
+  text-decoration: underline;
+  padding:40px 0 10px 0;
+}
+
+.announcements a,
+.announcements a:visited {
+  color:rgb(47, 122, 207);
+  font-weight:bold;
+  text-decoration: none;
+}
+
+.announcements a:hover {
+  color:rgb(35, 108, 192);
+}
+
 .announcements p {
   font-size:18px;
   line-height:30px;
@@ -740,6 +772,7 @@ p {
   line-height:180%;
   font-family:'Manrope', sans-serif;
   padding:0;
+  font-weight:500;
 }
 
 .paper h4 {
@@ -940,4 +973,27 @@ p {
   .committees-container .columns .group {
     width:100%;
   }
+}
+
+.thank-you {
+  width:100%;
+  text-align:center;
+  box-sizing: border-box;
+  padding:50px;
+  background:rgba(255, 208, 0, 0.048);
+  border:3px solid rgb(255, 208, 0);
+  margin-bottom:50px;
+  border-radius:4px;
+}
+
+.thank-you p {
+  color:#940000;
+  font-size:1.5rem;
+  line-height:200%;
+  font-weight:bold;
+}
+
+.thank-you img {
+  width:200px;
+  text-align:center;
 }
