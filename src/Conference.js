@@ -36,7 +36,7 @@ const Conference = () => {
                         </p>
                     </div> */}
 
-                    <div className='thank-you'>
+                    {/* <div className='thank-you'>
                         <img draggable='false' src={logo} alt='logo' />
                         <p>
                             On behalf of the entire Secretariat and Staff team,
@@ -50,7 +50,9 @@ const Conference = () => {
                         <p>
                             View the closing ceremony on YouTube by <a href="https://www.youtube.com/watch?v=Fe3wCb6hJrM&ab_channel=CAHSMUN" >clicking here</a>. Thank you all for an amazing weekend!
                         </p>
-                    </div>
+                    </div> */}
+
+                    <h1 className='welcome'>Welcome to CAHSMUN 2022!</h1>
 
 
                     <h2>General Information</h2>
@@ -59,7 +61,7 @@ const Conference = () => {
 
                     <div className={`schedule ${firstOpened ? 'opened' : 'closed'}`}>
                         <div className='schedule-head'>
-                            <h4>April 9th, 2021</h4>
+                            <h4>April 1, 2022</h4>
                             <div className={`schedule-toggle`} onClick={e=>setFirstOpened(firstOpened ? false : true)}>
                                 <img src={ChevronLeft} alt='Chevron Left' />
                             </div>
@@ -95,7 +97,7 @@ const Conference = () => {
 
                     <div className={`schedule ${secondOpened ? 'opened' : 'closed'}`}>
                         <div className='schedule-head'>
-                            <h4>April 10th, 2021</h4>
+                            <h4>April 2, 2022</h4>
                             <div className={`schedule-toggle`} onClick={e=>setSecondOpened(secondOpened ? false : true)}>
                                 <img src={ChevronLeft} alt='Chevron Left' />
                             </div>
@@ -163,7 +165,7 @@ const Conference = () => {
 
                     <div className={`schedule ${thirdOpened ? 'opened' : 'closed'}`}>
                         <div className='schedule-head'>
-                            <h4>April 11th, 2021</h4>
+                            <h4>April 3, 2022</h4>
                             <div className={`schedule-toggle`} onClick={e=>setThirdOpened(thirdOpened ? false : true)}>
                                 <img src={ChevronLeft} alt='Chevron Left' />
                             </div>
@@ -208,7 +210,7 @@ const Conference = () => {
                             <p>
                                 For any inquiries, visit us at the Secretariat Desk (Accessible via the 'Campus Rooms' link on the side). 
                                 Alternatively, you can send a message in the Inquiries Slack Channel, call our toll-free line at 1-833-REDCAHS (available 8am - 10pm PST), 
-                                or email Emily Ni, our Secretary-General, at <a href="mailto:sg@cahsmun.org">sg@cahsmun.org</a>.
+                                or email Koby Chen, our Secretary-General, at <a href="mailto:sg@cahsmun.org">sg@cahsmun.org</a>.
                             </p>
                         </div>
                     </section>

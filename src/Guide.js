@@ -23,7 +23,7 @@ const Guide = () => {
                     <h3>Conference</h3>
                     <div className='paper'>
                         <p>
-                            Welcome to CAHSMUN 2021! To ensure a smooth online experience, please read this Zoom guide in depth before the conference begins.
+                            Welcome to CAHSMUN 2022! To ensure a smooth online experience, please read this Zoom guide in depth before the conference begins.
                         </p>
 
                         <h4>Before the Conference</h4>

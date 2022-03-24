@@ -12,7 +12,7 @@ const Main = () => {
             <div className='committees-container'>
                 <div className='committees'>
                     <h2>Campus Rooms</h2>
-                    <h3>Conference</h3>
+                    {/* <h3>Conference</h3> */}
                     <div className='columns'>
                         <div className='group'>
                             <div className='group-inner'>
