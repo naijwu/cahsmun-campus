@@ -23,85 +23,73 @@ const Main = () => {
                                 <a href='https://www.youtube.com/watch?v=Fe3wCb6hJrM&ab_channel=CAHSMUN' target="_blank" rel="noreferrer" className='committee-item'>
                                     Closing Ceremony
                                 </a>
-                                <a href='https://zoom.us/j/93186871423' target="_blank" rel="noreferrer" className='committee-item'>
+                                <a href='https://us06web.zoom.us/j/6996852074?pwd=RnFBNUNXN3JjQVgxK3ZQWnNoN2VnQT09' target="_blank" rel="noreferrer" className='committee-item'>
                                     Secretariat Desk
                                 </a>
                                 <a href='https://zoom.us/j/9307153069' target="_blank" rel="noreferrer" className='committee-item'>
-                                    Staff Room
+                                    Staff Meetings
                                 </a>
-                                <a href={`${funTime ? 'https://zoom.us/j/94205566796' : '#'}`} target={`${funTime ? '_blank' : ''}`} rel="noreferrer" className={`committee-item funtime ${funTime ? '' : 'disabled'}`}>
+                                <a href={`${funTime ? 'https://us06web.zoom.us/j/88264017646?pwd=S2xsalFHSUNpV0dpdGZrRWRFeVZxZz09' : '#'}`} target={`${funTime ? '_blank' : ''}`} rel="noreferrer" className={`committee-item funtime ${funTime ? '' : 'disabled'}`}>
                                     Delegate Social
                                 </a>
                             </div>
                             <div className='group-inner'>
                                 <h4>General Assemblies</h4>
-                                <a href='https://zoom.us/j/94930811730' target="_blank" rel="noreferrer" className='committee-item'>
+                                <a href='https://us06web.zoom.us/j/4869983111' target="_blank" rel="noreferrer" className='committee-item'>
                                     DISEC
                                 </a>
-                                <a href='https://zoom.us/j/97276845784' target="_blank" rel="noreferrer" className='committee-item'>
+                                <a href='https://us06web.zoom.us/j/4869983111' target="_blank" rel="noreferrer" className='committee-item'>
                                     SOCHUM
                                 </a>
-                                <a href='https://zoom.us/j/97706190967' target="_blank" rel="noreferrer" className='committee-item'>
+                                <a href='https://us06web.zoom.us/j/2749205480' target="_blank" rel="noreferrer" className='committee-item'>
                                     WHO
                                 </a>
                             </div>
                             <div className='group-inner'>
                                 <h4>Regional Bodies</h4>
-                                <a href='https://zoom.us/j/97999885225' target="_blank" rel="noreferrer" className='committee-item'>
-                                    EU
+                                <a href='https://zoom.us/j/2290623899' target="_blank" rel="noreferrer" className='committee-item'>
+                                    EAS
                                 </a>
-                                <a href='https://zoom.us/j/94467640981' target="_blank" rel="noreferrer" className='committee-item'>
-                                    NATO
-                                </a>
-                                <a href='https://zoom.us/j/95481442958' target="_blank" rel="noreferrer" className='committee-item'>
-                                    USS
-                                </a>
-                                <a href='https://zoom.us/j/94201934372' target="_blank" rel="noreferrer" className='committee-item'>
-                                    ASEAN
-                                </a>
-                                <a href='https://zoom.us/j/93127543451' target="_blank" rel="noreferrer" className='committee-item'>
-                                    IAC
+                                <a href='https://zoom.us/j/4058311070' target="_blank" rel="noreferrer" className='committee-item'>
+                                    C40
                                 </a>
                             </div>
                         </div>
                         <div className='group'>
                             <div className='group-inner'>
                                 <h4>Specialized Agencies</h4>
-                                <a href='https://zoom.us/j/99289541235' target="_blank" rel="noreferrer" className='committee-item'>
+                                <a href='https://zoom.us/j/9158585611' target="_blank" rel="noreferrer" className='committee-item'>
+                                    UNDP
+                                </a>
+                                <a href='https://zoom.us/j/95871231805' target="_blank" rel="noreferrer" className='committee-item'>
                                     UN Women
                                 </a>
-                                <a href='https://zoom.us/j/98248975106' target="_blank" rel="noreferrer" className='committee-item'>
-                                    UNEP
-                                </a>
-                                <a href='https://zoom.us/j/98514414192' target="_blank" rel="noreferrer" className='committee-item'>
+                                <a href='https://zoom.us/j/91350718741' target="_blank" rel="noreferrer" className='committee-item'>
                                     UNSC
-                                </a>
-                                <a href='https://zoom.us/j/98200892509' target="_blank" rel="noreferrer" className='committee-item'>
-                                    ILO
-                                </a>
-                                <a href='https://zoom.us/j/99654978179' target="_blank" rel="noreferrer" className='committee-item'>
-                                    Facebook (miniEnterprize)
                                 </a>
                             </div>
                             <div className='group-inner'>
                                 <h4>Crisis Committees</h4>
-                                <a href='https://zoom.us/j/99252586573' target="_blank" rel="noreferrer" className='committee-item'>
-                                    JCC A
+                                <a href='https://zoom.us/j/9349389082' target="_blank" rel="noreferrer" className='committee-item'>
+                                    JCC Bloc A (Russia)
                                 </a>
-                                <a href='https://zoom.us/j/91589087448' target="_blank" rel="noreferrer" className='committee-item'>
-                                    JCC B
+                                <a href='https://zoom.us/j/81965072979' target="_blank" rel="noreferrer" className='committee-item'>
+                                    JCC Bloc B (Sweden)
                                 </a>
-                                <a href='https://zoom.us/j/99758129303' target="_blank" rel="noreferrer" className='committee-item'>
-                                    FCC
-                                </a>
-                                <a href='https://zoom.us/j/92543690257' target="_blank" rel="noreferrer" className='committee-item'>
+                                <a href='https://zoom.us/j/9815916511' target="_blank" rel="noreferrer" className='committee-item'>
                                     HCC
                                 </a>
-                                <a href='https://zoom.us/j/96063121501' target="_blank" rel="noreferrer" className='committee-item'>
-                                    Korean Cabinet
+                                <a href='https://zoom.us/j/7622141834' target="_blank" rel="noreferrer" className='committee-item'>
+                                    FCC
                                 </a>
-                                <a href='https://zoom.us/j/98908274926' target="_blank" rel="noreferrer" className='committee-item'>
-                                    IPC
+                                <a href='https://zoom.us/j/95136989256' target="_blank" rel="noreferrer" className='committee-item'>
+                                    ECC
+                                </a>
+                                <a href='https://zoom.us/j/5802874946' target="_blank" rel="noreferrer" className='committee-item'>
+                                    IPC/NGO
+                                </a>
+                                <a href='https://zoom.us/j/98253940038' target="_blank" rel="noreferrer" className='committee-item'>
+                                    Business
                                 </a>
                             </div>
                         </div>

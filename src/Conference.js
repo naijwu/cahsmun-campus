@@ -43,14 +43,14 @@ const Conference = () => {
                             thank you for your participation in CAHSMUN 2021 and for learning 
                             today, so that you may lead tomorrow. ❤
                         </p>
-                    </div>
+                    </div> */}
 
                     <div className='announcements'>
                         <h2>Announcement</h2>
                         <p>
-                            View the closing ceremony on YouTube by <a href="https://www.youtube.com/watch?v=Fe3wCb6hJrM&ab_channel=CAHSMUN" >clicking here</a>. Thank you all for an amazing weekend!
+                            View the opening ceremony on YouTube by <a href="https://www.youtube.com/watch?v=Fe3wCb6hJrM&ab_channel=CAHSMUN" >clicking here</a>. Hope to see you there!
                         </p>
-                    </div> */}
+                    </div>
 
                     <h1 className='welcome'>Welcome to CAHSMUN 2022!</h1>
 
