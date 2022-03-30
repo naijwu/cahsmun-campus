@@ -52,7 +52,7 @@ const Panel = () => {
             <div className={`panel navopen${opened ? '' : 'closed'}`}>
                 <div className='ruby'>
                     <img draggable='false' className='colonize' src={logo} alt='logo' />
-                    <h1>CAHSMUN<br/>Campus</h1>
+                    <h1>CAHSMUN <br />Campus</h1>
                 </div>
                 <div className='ice'>
                     <div className='section'>

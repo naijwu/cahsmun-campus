@@ -36,21 +36,23 @@ const Conference = () => {
                         </p>
                     </div> */}
 
-                    <div className='thank-you'>
+                    {/* <div className='thank-you'>
                         <img draggable='false' src={logo} alt='logo' />
                         <p>
                             On behalf of the entire Secretariat and Staff team,
                             thank you for your participation in CAHSMUN 2021 and for learning 
                             today, so that you may lead tomorrow. ❤
                         </p>
-                    </div>
+                    </div> */}
 
                     <div className='announcements'>
                         <h2>Announcement</h2>
                         <p>
-                            View the closing ceremony on YouTube by <a href="https://www.youtube.com/watch?v=Fe3wCb6hJrM&ab_channel=CAHSMUN" >clicking here</a>. Thank you all for an amazing weekend!
+                            View the opening ceremony on YouTube by <a href="https://www.youtube.com/watch?v=Fe3wCb6hJrM&ab_channel=CAHSMUN" >clicking here</a>. Hope to see you there!
                         </p>
                     </div>
+
+                    <h1 className='welcome'>Welcome to CAHSMUN 2022!</h1>
 
 
                     <h2>General Information</h2>
@@ -59,7 +61,7 @@ const Conference = () => {
 
                     <div className={`schedule ${firstOpened ? 'opened' : 'closed'}`}>
                         <div className='schedule-head'>
-                            <h4>April 9th, 2021</h4>
+                            <h4>April 1, 2022</h4>
                             <div className={`schedule-toggle`} onClick={e=>setFirstOpened(firstOpened ? false : true)}>
                                 <img src={ChevronLeft} alt='Chevron Left' />
                             </div>
@@ -67,7 +69,7 @@ const Conference = () => {
                         
                         <table class="schedule-table">
                             <tr class="first">
-                                <td>3:00 pm – 4:00 pm</td>
+                                <td>3:30 pm – 4:00 pm</td>
                                 <td>Registration</td>
                             </tr>
                             <tr class="first">
@@ -75,15 +77,15 @@ const Conference = () => {
                                 <td>Opening Ceremony</td>
                             </tr>
                             <tr class="first">
-                                <td>5:00 pm – 6:00 pm</td>
+                                <td>5:00 pm – 6:15 pm</td>
                                 <td>Dinner</td>
                             </tr>
                             <tr class="first">
-                                <td>6:00 pm – 7:20 pm</td>
+                                <td>6:15 pm – 7:15 pm</td>
                                 <td>Committee Session I</td>
                             </tr>
                             <tr class="first">
-                                <td>7:20 pm – 7:30 pm</td>
+                                <td>7:15 pm – 7:30 pm</td>
                                 <td>Break</td>
                             </tr>
                             <tr class="first">
@@ -95,7 +97,7 @@ const Conference = () => {
 
                     <div className={`schedule ${secondOpened ? 'opened' : 'closed'}`}>
                         <div className='schedule-head'>
-                            <h4>April 10th, 2021</h4>
+                            <h4>April 2, 2022</h4>
                             <div className={`schedule-toggle`} onClick={e=>setSecondOpened(secondOpened ? false : true)}>
                                 <img src={ChevronLeft} alt='Chevron Left' />
                             </div>
@@ -103,55 +105,55 @@ const Conference = () => {
                         
                         <table class="schedule-table">
                             <tr class="second">
-                                <td>8:30 am – 9:40 am</td>
+                                <td>9:30 am – 10:30 am</td>
                                 <td>Committee Session III</td>
                             </tr>
                             <tr class="second">
-                                <td>9:40 am – 9:50 am</td>
+                                <td>10:30 am – 10:45 am</td>
                                 <td>Break</td>
                             </tr>
                             <tr class="second">
-                                <td>9:50 am – 11:00 am</td>
+                                <td>10:45 am – 11:45 am</td>
                                 <td>Committee Session IV</td>
                             </tr>
                             <tr class="second">
-                                <td>11:00 am – 11:20 am</td>
+                                <td>11:45 am – 12:00 pm</td>
                                 <td>Break</td>
                             </tr>
                             <tr class="second">
-                                <td>11:20 am – 12:30 pm</td>
+                                <td>12:00 pm – 1:00 pm</td>
                                 <td>Committee Session V</td>
                             </tr>
                             <tr class="second">
-                                <td>12:30 pm – 1:40 pm</td>
+                                <td>1:00 pm – 2:00 pm</td>
                                 <td>Lunch</td>
                             </tr>
                             <tr class="second">
-                                <td>1:40 pm – 2:50 pm</td>
+                                <td>2:00 pm – 3:00 pm</td>
                                 <td>Committee Session VI</td>
                             </tr>
                             <tr class="second">
-                                <td>2:50 pm – 3:00 pm</td>
+                                <td>3:00 pm – 3:30 pm</td>
                                 <td>Break</td>
                             </tr>
                             <tr class="second">
-                                <td>3:00 pm – 4:10 pm</td>
+                                <td>3:30 pm – 4:30 pm</td>
                                 <td>Committee Session VII</td>
                             </tr>
                             <tr class="second">
-                                <td>4:10 pm – 4:30 pm</td>
+                                <td>4:30 pm – 5:00 pm</td>
                                 <td>Break</td>
                             </tr>
                             <tr class="second">
-                                <td>4:30 pm – 5:30 pm</td>
+                                <td>5:00 pm – 6:00 pm</td>
                                 <td>Committee Session VIII</td>
                             </tr>
                             <tr class="second">
-                                <td>5:30 pm – 6:00 pm</td>
+                                <td>6:00 pm – 6:30 pm</td>
                                 <td>Sponsor Teacher Meeting @ Secretariat Desk</td>
                             </tr>
                             <tr class="second">
-                                <td>5:30 pm – 7:00 pm</td>
+                                <td>6:00 pm – 7:00 pm</td>
                                 <td>Dinner</td>
                             </tr>
                             <tr class="second">
@@ -163,7 +165,7 @@ const Conference = () => {
 
                     <div className={`schedule ${thirdOpened ? 'opened' : 'closed'}`}>
                         <div className='schedule-head'>
-                            <h4>April 11th, 2021</h4>
+                            <h4>April 3, 2022</h4>
                             <div className={`schedule-toggle`} onClick={e=>setThirdOpened(thirdOpened ? false : true)}>
                                 <img src={ChevronLeft} alt='Chevron Left' />
                             </div>
@@ -171,31 +173,27 @@ const Conference = () => {
                         
                         <table class="schedule-table">
                             <tr class="third">
-                                <td>8:00 am – 10:00 am</td>
+                                <td>9:00 am – 11:00 am</td>
                                 <td>Morning Crisis (Session IX)</td>
                             </tr>
                             <tr class="third">
-                                <td>10:00 am – 10:45 am</td>
+                                <td>11:00 am – 11:45 am</td>
                                 <td>Extended Break</td>
                             </tr>
                             <tr class="third">
-                                <td>10:45 am – 12:00 pm</td>
+                                <td>11:45 am – 12:45 pm</td>
                                 <td>Committee Session X</td>
                             </tr>
                             <tr class="third">
-                                <td>12:00 pm – 12:10 pm</td>
-                                <td>Break</td>
-                            </tr>
-                            <tr class="third">
-                                <td>12:10 pm – 1:10 pm</td>
-                                <td>Committee Session XI</td>
-                            </tr>
-                            <tr class="third">
-                                <td>1:10 pm – 2:15 pm</td>
+                                <td>12:45 pm – 2:00 pm</td>
                                 <td>Lunch</td>
                             </tr>
                             <tr class="third">
-                                <td>2:15 pm – 3:45 pm</td>
+                                <td>2:00 pm – 3:00 pm</td>
+                                <td>Committee Session XI</td>
+                            </tr>
+                            <tr class="third">
+                                <td>3:00 pm – 4:30 pm</td>
                                 <td>Closing Ceremony</td>
                             </tr>
                         </table>
@@ -208,7 +206,7 @@ const Conference = () => {
                             <p>
                                 For any inquiries, visit us at the Secretariat Desk (Accessible via the 'Campus Rooms' link on the side). 
                                 Alternatively, you can send a message in the Inquiries Slack Channel, call our toll-free line at 1-833-REDCAHS (available 8am - 10pm PST), 
-                                or email Emily Ni, our Secretary-General, at <a href="mailto:sg@cahsmun.org">sg@cahsmun.org</a>.
+                                or email Koby Chen, our Secretary-General, at <a href="mailto:sg@cahsmun.org">sg@cahsmun.org</a>.
                             </p>
                         </div>
                     </section>
