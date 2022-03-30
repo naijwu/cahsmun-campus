@@ -69,7 +69,7 @@ const Conference = () => {
                         
                         <table class="schedule-table">
                             <tr class="first">
-                                <td>3:00 pm – 4:00 pm</td>
+                                <td>3:30 pm – 4:00 pm</td>
                                 <td>Registration</td>
                             </tr>
                             <tr class="first">
@@ -77,15 +77,15 @@ const Conference = () => {
                                 <td>Opening Ceremony</td>
                             </tr>
                             <tr class="first">
-                                <td>5:00 pm – 6:00 pm</td>
+                                <td>5:00 pm – 6:15 pm</td>
                                 <td>Dinner</td>
                             </tr>
                             <tr class="first">
-                                <td>6:00 pm – 7:20 pm</td>
+                                <td>6:15 pm – 7:15 pm</td>
                                 <td>Committee Session I</td>
                             </tr>
                             <tr class="first">
-                                <td>7:20 pm – 7:30 pm</td>
+                                <td>7:15 pm – 7:30 pm</td>
                                 <td>Break</td>
                             </tr>
                             <tr class="first">
@@ -105,55 +105,55 @@ const Conference = () => {
                         
                         <table class="schedule-table">
                             <tr class="second">
-                                <td>8:30 am – 9:40 am</td>
+                                <td>9:30 am – 10:30 am</td>
                                 <td>Committee Session III</td>
                             </tr>
                             <tr class="second">
-                                <td>9:40 am – 9:50 am</td>
+                                <td>10:30 am – 10:45 am</td>
                                 <td>Break</td>
                             </tr>
                             <tr class="second">
-                                <td>9:50 am – 11:00 am</td>
+                                <td>10:45 am – 11:45 am</td>
                                 <td>Committee Session IV</td>
                             </tr>
                             <tr class="second">
-                                <td>11:00 am – 11:20 am</td>
+                                <td>11:45 am – 12:00 pm</td>
                                 <td>Break</td>
                             </tr>
                             <tr class="second">
-                                <td>11:20 am – 12:30 pm</td>
+                                <td>12:00 pm – 1:00 pm</td>
                                 <td>Committee Session V</td>
                             </tr>
                             <tr class="second">
-                                <td>12:30 pm – 1:40 pm</td>
+                                <td>1:00 pm – 2:00 pm</td>
                                 <td>Lunch</td>
                             </tr>
                             <tr class="second">
-                                <td>1:40 pm – 2:50 pm</td>
+                                <td>2:00 pm – 3:00 pm</td>
                                 <td>Committee Session VI</td>
                             </tr>
                             <tr class="second">
-                                <td>2:50 pm – 3:00 pm</td>
+                                <td>3:00 pm – 3:30 pm</td>
                                 <td>Break</td>
                             </tr>
                             <tr class="second">
-                                <td>3:00 pm – 4:10 pm</td>
+                                <td>3:30 pm – 4:30 pm</td>
                                 <td>Committee Session VII</td>
                             </tr>
                             <tr class="second">
-                                <td>4:10 pm – 4:30 pm</td>
+                                <td>4:30 pm – 5:00 pm</td>
                                 <td>Break</td>
                             </tr>
                             <tr class="second">
-                                <td>4:30 pm – 5:30 pm</td>
+                                <td>5:00 pm – 6:00 pm</td>
                                 <td>Committee Session VIII</td>
                             </tr>
                             <tr class="second">
-                                <td>5:30 pm – 6:00 pm</td>
+                                <td>6:00 pm – 6:30 pm</td>
                                 <td>Sponsor Teacher Meeting @ Secretariat Desk</td>
                             </tr>
                             <tr class="second">
-                                <td>5:30 pm – 7:00 pm</td>
+                                <td>6:00 pm – 7:00 pm</td>
                                 <td>Dinner</td>
                             </tr>
                             <tr class="second">
@@ -173,31 +173,27 @@ const Conference = () => {
                         
                         <table class="schedule-table">
                             <tr class="third">
-                                <td>8:00 am – 10:00 am</td>
+                                <td>9:00 am – 11:00 am</td>
                                 <td>Morning Crisis (Session IX)</td>
                             </tr>
                             <tr class="third">
-                                <td>10:00 am – 10:45 am</td>
+                                <td>11:00 am – 11:45 am</td>
                                 <td>Extended Break</td>
                             </tr>
                             <tr class="third">
-                                <td>10:45 am – 12:00 pm</td>
+                                <td>11:45 am – 12:45 pm</td>
                                 <td>Committee Session X</td>
                             </tr>
                             <tr class="third">
-                                <td>12:00 pm – 12:10 pm</td>
-                                <td>Break</td>
-                            </tr>
-                            <tr class="third">
-                                <td>12:10 pm – 1:10 pm</td>
-                                <td>Committee Session XI</td>
-                            </tr>
-                            <tr class="third">
-                                <td>1:10 pm – 2:15 pm</td>
+                                <td>12:45 pm – 2:00 pm</td>
                                 <td>Lunch</td>
                             </tr>
                             <tr class="third">
-                                <td>2:15 pm – 3:45 pm</td>
+                                <td>2:00 pm – 3:00 pm</td>
+                                <td>Committee Session XI</td>
+                            </tr>
+                            <tr class="third">
+                                <td>3:00 pm – 4:30 pm</td>
                                 <td>Closing Ceremony</td>
                             </tr>
                         </table>
