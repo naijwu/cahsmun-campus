@@ -5,9 +5,9 @@ import logo from './assets/cahs-logo.png';
 
 const Conference = () => {
 
-    const [firstOpened, setFirstOpened] = useState(false);
+    const [firstOpened, setFirstOpened] = useState(true);
     const [secondOpened, setSecondOpened] = useState(false);
-    const [thirdOpened, setThirdOpened] = useState(true); 
+    const [thirdOpened, setThirdOpened] = useState(false); 
 
     return (
         <div className='conference'>
