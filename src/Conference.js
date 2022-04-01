@@ -201,8 +201,7 @@ const Conference = () => {
                             <h4>All Inquiries</h4>
                             <p>
                                 For any inquiries, visit us at the Secretariat Desk (Accessible via the 'Campus Rooms' link on the side). 
-                                Alternatively, you can send a message in the Inquiries Slack Channel, call our toll-free line at 1-833-REDCAHS (available 8am - 10pm PST), 
-                                or email Koby Chen, our Secretary-General, at <a href="mailto:sg@cahsmun.org">sg@cahsmun.org</a>.
+                                Alternatively, you can send a message in the Inquiries Slack Channel, or email Koby Chen, our Secretary-General, at <a href="mailto:sg@cahsmun.org">sg@cahsmun.org</a>.
                             </p>
                         </div>
                     </section>
