@@ -18,10 +18,10 @@ const Main = () => {
                             <div className='group-inner'>
                                 <h4>Main Building</h4>
                                 <a href='https://youtu.be/MNY4Dxkjq0A' target="_blank" rel="noreferrer" className='committee-item'>
-                                    Opening Ceremony
+                                    Opening Ceremonies
                                 </a>
                                 <a href='https://www.youtube.com/watch?v=Fe3wCb6hJrM&ab_channel=CAHSMUN' target="_blank" rel="noreferrer" className='committee-item'>
-                                    Closing Ceremony
+                                    Closing Ceremonies
                                 </a>
                                 <a href='https://us06web.zoom.us/j/6996852074?pwd=RnFBNUNXN3JjQVgxK3ZQWnNoN2VnQT09' target="_blank" rel="noreferrer" className='committee-item'>
                                     Secretariat Desk
@@ -86,7 +86,7 @@ const Main = () => {
                                     ECC
                                 </a>
                                 <a href='https://zoom.us/j/5802874946' target="_blank" rel="noreferrer" className='committee-item'>
-                                    IPC/NGO
+                                    IPC
                                 </a>
                                 <a href='https://zoom.us/j/98253940038' target="_blank" rel="noreferrer" className='committee-item'>
                                     Business

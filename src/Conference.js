@@ -48,7 +48,7 @@ const Conference = () => {
                     <div className='announcements'>
                         <h2>Announcement</h2>
                         <p>
-                            View the opening ceremony on YouTube by <a href="https://www.youtube.com/watch?v=Fe3wCb6hJrM&ab_channel=CAHSMUN" >clicking here</a>. Hope to see you there!
+                            Check back for the opening ceremonies on YouTube. Hope to see you there!
                         </p>
                     </div>
 
@@ -74,7 +74,7 @@ const Conference = () => {
                             </tr>
                             <tr class="first">
                                 <td>4:00 pm – 5:00 pm</td>
-                                <td>Opening Ceremony</td>
+                                <td>Opening Ceremonies</td>
                             </tr>
                             <tr class="first">
                                 <td>5:00 pm – 6:15 pm</td>
@@ -149,10 +149,6 @@ const Conference = () => {
                                 <td>Committee Session VIII</td>
                             </tr>
                             <tr class="second">
-                                <td>6:00 pm – 6:30 pm</td>
-                                <td>Sponsor Teacher Meeting @ Secretariat Desk</td>
-                            </tr>
-                            <tr class="second">
                                 <td>6:00 pm – 7:00 pm</td>
                                 <td>Dinner</td>
                             </tr>
@@ -194,7 +190,7 @@ const Conference = () => {
                             </tr>
                             <tr class="third">
                                 <td>3:00 pm – 4:30 pm</td>
-                                <td>Closing Ceremony</td>
+                                <td>Closing Ceremonies</td>
                             </tr>
                         </table>
                     </div>
