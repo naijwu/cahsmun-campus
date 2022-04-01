@@ -67,15 +67,15 @@ const Panel = () => {
                     </div>
                     <div className='section'>
                         <h3>Resources</h3>
-                        <a href='https://static1.squarespace.com/static/57b632432994cab0b44562ae/t/6070c7526c72440794cbac7b/1618003815421/CAHSMUN+2021+Delegate+Handbook.pdf' target="_blank" rel="noreferrer" className='panel-link icon'>
-                            Delegate Handbook
+                        <a href='https://static1.squarespace.com/static/57b632432994cab0b44562ae/t/61886de005ed2a3e4fab82b8/1638855909842/CAHSMUN+2022+Position+Paper+Guide.pdf' target="_blank" rel="noreferrer" className='panel-link icon'>
+                            Position Paper Guide
                             <img src={ExternalLink} alt='External' />
                         </a>
                         <a href='https://static1.squarespace.com/static/57b632432994cab0b44562ae/t/5f66c555dc971b47105da274/1600570711528/CAHSMUN+Resolution+Paper+Guide.pdf' target="_blank" rel="noreferrer" className='panel-link icon'>
                             Resolution Paper Guide
                             <img src={ExternalLink} alt='External' />
                         </a>
-                        <a href='https://static1.squarespace.com/static/57b632432994cab0b44562ae/t/5f66c580885b214e6f2d2585/1600570757381/CAHSMUN+Rules+of+Procedure+Guide.pdf' target="_blank" rel="noreferrer" className='panel-link icon'>
+                        <a href='https://static1.squarespace.com/static/57b632432994cab0b44562ae/t/6191ead2fb64582473daaec9/1636952787880/CAHSMUN+2022+Rules+of+Procedure.pdf' target="_blank" rel="noreferrer" className='panel-link icon'>
                             Rules of Procedure
                             <img src={ExternalLink} alt='External' />
                         </a>
