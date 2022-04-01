@@ -38,7 +38,7 @@ const Main = () => {
                                 <a href='https://us06web.zoom.us/j/4869983111' target="_blank" rel="noreferrer" className='committee-item'>
                                     DISEC
                                 </a>
-                                <a href='https://us06web.zoom.us/j/4869983111' target="_blank" rel="noreferrer" className='committee-item'>
+                                <a href='https://us06web.zoom.us/j/6490309461' target="_blank" rel="noreferrer" className='committee-item'>
                                     SOCHUM
                                 </a>
                                 <a href='https://us06web.zoom.us/j/2749205480' target="_blank" rel="noreferrer" className='committee-item'>
