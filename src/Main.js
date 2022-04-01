@@ -17,10 +17,10 @@ const Main = () => {
                         <div className='group'>
                             <div className='group-inner'>
                                 <h4>Main Building</h4>
-                                <a href='https://youtu.be/MNY4Dxkjq0A' target="_blank" rel="noreferrer" className='committee-item'>
+                                <a href='https://youtu.be/V2eFBLv3HvI' target="_blank" rel="noreferrer" className='committee-item'>
                                     Opening Ceremonies
                                 </a>
-                                <a href='https://www.youtube.com/watch?v=Fe3wCb6hJrM&ab_channel=CAHSMUN' target="_blank" rel="noreferrer" className='committee-item'>
+                                <a href='#' className='committee-item'>
                                     Closing Ceremonies
                                 </a>
                                 <a href='https://us06web.zoom.us/j/6996852074?pwd=RnFBNUNXN3JjQVgxK3ZQWnNoN2VnQT09' target="_blank" rel="noreferrer" className='committee-item'>

@@ -48,7 +48,7 @@ const Conference = () => {
                     <div className='announcements'>
                         <h2>Announcement</h2>
                         <p>
-                            Check back for the opening ceremonies on YouTube. Hope to see you there!
+                            Attend the opening ceremonies at 4:00 PM on YouTube by <a href="https://youtu.be/V2eFBLv3HvI">clicking here</a>. Hope to see you there!
                         </p>
                     </div>
 
