@@ -67,7 +67,7 @@ const Panel = () => {
                     </div>
                     <div className='section'>
                         <h3>Resources</h3>
-                        <a href='https://drive.google.com/file/d/1Bu1Ql1lDjMsN490mlmilsRICZ_fUqBMC'>
+                        <a href='https://drive.google.com/file/d/1Bu1Ql1lDjMsN490mlmilsRICZ_fUqBMC' target="_blank" rel="noreferrer" className='panel-link icon'>
                             Delegate Handbook
                             <img src={ExternalLink} alt='External' />
                         </a>
