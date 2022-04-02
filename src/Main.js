@@ -61,7 +61,7 @@ const Main = () => {
                                 <a href='https://zoom.us/j/9158585611' target="_blank" rel="noreferrer" className='committee-item'>
                                     UNDP
                                 </a>
-                                <a href='https://zoom.us/j/95871231805' target="_blank" rel="noreferrer" className='committee-item'>
+                                <a href='https://zoom.us/j/7031772185' target="_blank" rel="noreferrer" className='committee-item'>
                                     UN Women
                                 </a>
                                 <a href='https://zoom.us/j/91350718741' target="_blank" rel="noreferrer" className='committee-item'>
