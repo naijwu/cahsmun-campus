@@ -67,6 +67,10 @@ const Panel = () => {
                     </div>
                     <div className='section'>
                         <h3>Resources</h3>
+                        <a href='https://drive.google.com/file/d/1Bu1Ql1lDjMsN490mlmilsRICZ_fUqBMC'>
+                            Delegate Handbook
+                            <img src={ExternalLink} alt='External' />
+                        </a>
                         <a href='https://static1.squarespace.com/static/57b632432994cab0b44562ae/t/61886de005ed2a3e4fab82b8/1638855909842/CAHSMUN+2022+Position+Paper+Guide.pdf' target="_blank" rel="noreferrer" className='panel-link icon'>
                             Position Paper Guide
                             <img src={ExternalLink} alt='External' />
