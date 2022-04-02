@@ -70,10 +70,10 @@ const Main = () => {
                             </div>
                             <div className='group-inner'>
                                 <h4>Crisis Committees</h4>
-                                <a href='https://zoom.us/j/9349389082' target="_blank" rel="noreferrer" className='committee-item'>
+                                <a href='https://zoom.us/j/81965072979' target="_blank" rel="noreferrer" className='committee-item'>
                                     JCC Bloc A (Russia)
                                 </a>
-                                <a href='https://zoom.us/j/81965072979' target="_blank" rel="noreferrer" className='committee-item'>
+                                <a href='https://zoom.us/j/9349389082' target="_blank" rel="noreferrer" className='committee-item'>
                                     JCC Bloc B (Sweden)
                                 </a>
                                 <a href='https://zoom.us/j/9815916511' target="_blank" rel="noreferrer" className='committee-item'>
