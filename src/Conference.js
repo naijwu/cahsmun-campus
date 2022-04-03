@@ -14,12 +14,12 @@ const Conference = () => {
             <Panel />
             <div className='conference-container'>
                 <div className='information'>
-                    <div className='announcements social'>
-                        <h2>Delegate Social Information</h2>
+                    {/* <div className='announcements social'> */}
+                        {/* <h2>Delegate Social Information</h2>
                         <p>
                             <br/>
                             Feel free to explore the various breakout rooms (in the Delegate Social Zoom Meeting)! If you need to be assigned to a particular breakout room let the Secretariat team know.
-                        </p>
+                        </p> */}
                         {/* <h3>Photobooth</h3>
                         <p>
                             For the photobooth, please join the Photo Booth Breakout Room only when it is empty (excluding the Secretariat member present).
@@ -34,7 +34,7 @@ const Conference = () => {
                             
                             The Challenge: Using any means necessary, defeat the Ender Dragon. The user who kills the Ender Dragon will win a $25 UberEats Gift Card. Feel free to mine around spawn to collect the resources needed. You have until 9:00 PM PDT. 
                         </p> */}
-                    </div>
+                    {/* </div> */}
 
                     {/* <div className='thank-you'>
                         <img draggable='false' src={logo} alt='logo' />
@@ -45,12 +45,12 @@ const Conference = () => {
                         </p>
                     </div> */}
 
-                    {/* <div className='announcements'>
+                    <div className='announcements'>
                         <h2>Announcement</h2>
                         <p>
-                            Attend the opening ceremonies at 4:00 PM on YouTube by <a href="https://youtu.be/V2eFBLv3HvI">clicking here</a>. Hope to see you there!
+                            Attend the closing ceremonies at 3:00 PM on YouTube by <a href="https://youtu.be/dSypIU4pMgI">clicking here</a>. Hope to see you there!
                         </p>
-                    </div> */}
+                    </div>
 
                     <h1 className='welcome'>Welcome to CAHSMUN 2022!</h1>
 
