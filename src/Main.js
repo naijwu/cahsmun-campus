@@ -23,13 +23,13 @@ const Main = () => {
                                 <a href='#' className='committee-item'>
                                     Closing Ceremonies
                                 </a>
-                                <a href='https://us06web.zoom.us/j/88264017646?pwd=S2xsalFHSUNpV0dpdGZrRWRFeVZxZz09' target="_blank" rel="noreferrer" className='committee-item'>
+                                <a href='https://us06web.zoom.us/j/6996852074?pwd=RnFBNUNXN3JjQVgxK3ZQWnNoN2VnQT09' target="_blank" rel="noreferrer" className='committee-item'>
                                     Secretariat Desk
                                 </a>
                                 <a href='https://zoom.us/j/9307153069' target="_blank" rel="noreferrer" className='committee-item'>
                                     Staff Meetings
                                 </a>
-                                <a href='https://us06web.zoom.us/j/88264017646?pwd=S2xsalFHSUNpV0dpdGZrRWRFeVZxZz09' target="_blank" rel="noreferrer" className='committee-item'>
+                                <a href='https://us06web.zoom.us/j/6996852074?pwd=RnFBNUNXN3JjQVgxK3ZQWnNoN2VnQT09' target="_blank" rel="noreferrer" className='committee-item'>
                                     Delegate Social
                                 </a>
                             </div>
