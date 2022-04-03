@@ -20,7 +20,7 @@ const Main = () => {
                                 <a href='https://youtu.be/V2eFBLv3HvI' target="_blank" rel="noreferrer" className='committee-item'>
                                     Opening Ceremonies
                                 </a>
-                                <a href='#' className='committee-item'>
+                                <a href='https://youtu.be/dSypIU4pMgI' className='committee-item'>
                                     Closing Ceremonies
                                 </a>
                                 <a href='https://us06web.zoom.us/j/6996852074?pwd=RnFBNUNXN3JjQVgxK3ZQWnNoN2VnQT09' target="_blank" rel="noreferrer" className='committee-item'>
