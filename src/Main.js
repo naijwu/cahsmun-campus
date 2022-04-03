@@ -29,7 +29,7 @@ const Main = () => {
                                 <a href='https://zoom.us/j/9307153069' target="_blank" rel="noreferrer" className='committee-item'>
                                     Staff Meetings
                                 </a>
-                                <a href='https://us06web.zoom.us/j/88264017646?pwd=S2xsalFHSUNpV0dpdGZrRWRFeVZxZz09' rel="noreferrer" className={`committee-item funtime ${funTime ? '' : 'disabled'}`}>
+                                <a href='https://us06web.zoom.us/j/6996852074?pwd=RnFBNUNXN3JjQVgxK3ZQWnNoN2VnQT09' target="_blank" rel="noreferrer" className='committee-item'>
                                     Delegate Social
                                 </a>
                             </div>
